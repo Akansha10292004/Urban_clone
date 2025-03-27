@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wall Painting Booking</title>
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            text-align: center;
+            padding: 20px;
+        }
+        .booking-container {
+            max-width: 600px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            text-align: left;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .submit-btn {
+            background-color: blue;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+            width: 100%;
+        }
+        .submit-btn:hover {
+            background-color: darkblue;
+        }
+        .img {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .img img {
+            width: 150px;
+            height: auto;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="img">
+    <img src="https://content.jdmagicbox.com/v2/comp/guntur/h2/9999px863.x863.190516055524.n5h2/catalogue/m-d-painting-works-old-guntur-guntur-house-painters-1tom2rvsvd.jpg?fit=around%7C350:350&crop=350:350;*,*"/>
+    <img src="https://www.housedigest.com/img/gallery/tips-on-painting-your-own-wall-mural/intro-1690028675.jpg"/>
+    </div>
+
+    <div class="booking-container">
+        <h2>🎨 Book Your Wall Painting Service 🏠</h2>
+        
+        <label>Your Name:</label>
+        <input type="text" id="name" placeholder="Enter your name">
+        
+        <label>Your Contact Number:</label>
+        <input type="text" id="phone" placeholder="Enter your phone number">
+        
+        <label>Additional Details:</label>
+        <textarea id="details" rows="3" placeholder="Mention your painting requirements..."></textarea>
+        
+        <label>Upload Image (Wall/Room to be Painted):</label>
+        <input type="file" id="image" accept="image/*">
+        
+        <button class="submit-btn" onclick="submitBooking()">Submit Booking</button>
+    </div>
+
+    <script>
+        function submitBooking() {
+            let name = document.getElementById("name").value;
+            let phone = document.getElementById("phone").value;
+            let details = document.getElementById("details").value;
+            let image = document.getElementById("image").files[0];
+            
+            if (name.trim() === "" || phone.trim() === "") {
+                alert("Please enter your name and contact number!");
+                return;
+            }
+
+            alert("✅ Your booking request has been submitted successfully! We will contact you soon.");
+        }
+    </script>
+
+</body>
+</html>

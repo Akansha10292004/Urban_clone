@@ -123,9 +123,9 @@ var waxing = [
     name: "Roll-on special(full arms + full legs + underarms)",
     rating: "4.81(4.5k)",
     price: 849,
-    strikeprice:999,
+    strikeprice: 999,
     image_url:
-      "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/images/growth/luminosity/1657100975526-deeb14.png",
+      "https://www.shutterstock.com/image-photo/young-caucasian-man-bare-chested-260nw-1815859577.jpg",
     thread1: "choose from chocolate Roll-on & RICA Roll-on",
     thread2: "We use RICA peel-off for underarm waxing",
     thread3: "",
@@ -138,9 +138,9 @@ var waxing = [
     name: "Full arms + Underarms",
     rating: "4.78(45.2k)",
     price: 309,
-    strikeprice:400,
+    strikeprice: 400,
     image_url:
-      "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/images/growth/luminosity/1657100969960-ef6f74.png",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjEmNRkn8X9kQtJf5KtLdY4hw3-v2a-ZdMDg&s",
     thread1: "We use RICA peel-off for underarm waxing",
     thread2: "",
     thread3: "",
@@ -152,9 +152,9 @@ var waxing = [
     name: "Full legs waxing",
     rating: "4.81(29.5k)",
     price: 349,
-    strikeprice:479,
+    strikeprice: 479,
     image_url:
-      "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/images/growth/luminosity/1657100965594-2ddc55.png",
+      "https://media.istockphoto.com/id/1075627804/photo/therapist-waxing-mans-leg.jpg?s=612x612&w=0&k=20&c=ulMzZdfpmtdjG7-HI7NAnLij8SXBxjStFXLnJqX2hhw=",
     thread1: "",
     thread2: "",
     thread3: "",
@@ -166,9 +166,9 @@ var waxing = [
     name: "Full body",
     rating: "4.81(4.8k)",
     price: 1399,
-    strikeprice:1599,
+    strikeprice: 1599,
     image_url:
-      "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/images/growth/luminosity/1657100967218-f08380.png",
+      "https://t4.ftcdn.net/jpg/12/08/37/67/360_F_1208376763_tZr7xMVQFIv5p2XaCCwHCxzbnu3f7ciM.jpg",
     thread1: "choose full arms, full legs, underarms, chest, stomack & back",
     thread2: "",
     thread3: "",
@@ -176,111 +176,15 @@ var waxing = [
     thread5: "",
     thread6: "",
   },
-  {
-    name: "Stomach",
-    rating: "4.76(3.4k)",
-    price: 299,
-    strikeprice:399,
-    image_url:
-      "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/images/growth/luminosity/1657100955968-c5b3f1.png",
-    thread1: "choose area below bust to pievis",
-    thread2: "",
-    thread3: "",
-    thread4: "",
-    thread5: "",
-    thread6: "",
-  },
-  {
-    name: "Back",
-    rating: "4.80(1.7k)",
-    price: 499,
-    strikeprice:599,
-    image_url:
-      "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/images/growth/luminosity/1657100988948-0b5dcc.png",
-    thread1: "cove the area from sholder to pelvis",
-    thread2: "",
-    thread3: "",
-    thread4: "",
-    thread5: "",
-    thread6: "",
-  },
-  {
-    name: "Underarms",
-    rating: "4.74(14.3k)",
-    price: 49,
-    strikeprice:79,
-    image_url:
-      "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/images/supply/customer-app-supply/1655288839372-c90f8e.png",
-    thread1: "choose from RICA peel-off & honey wax",
-    thread2: "",
-    thread3: "",
-    thread4: "",
-    thread5: "",
-    thread6: "",
-  },
-  {
-    name: "Bikini",
-    rating: "4.82(10.5k)",
-    price: 949,
-    strikeprice:1099,
-    image_url:
-      "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/images/growth/luminosity/1657100982244-701c4a.png",
-    thread1: "choose from RICA peel-off & honey wax",
-    thread2: "cover the entire pelvis area",
-    thread3: "",
-    thread4: "",
-    thread5: "",
-    thread6: "",
-  },
-  {
-    name: "Bikini line",
-    rating: "4.82(682)",
-    price: 249,
-    strikeprice:347,
-    image_url:
-      "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/images/supply/customer-app-supply/1655288871618-0d6809.png",
-    thread1: "choose from RICA peel-off & honey wax",
-    thread2: "only cover the entire peivis around area(not the pelvis)",
-    thread3: "",
-    thread4: "",
-    thread5: "",
-    thread6: "",
-  },
-  {
-    name: "Half legs waxing",
-    rating: "4.75(32.4k)",
-    price: 199,
-    strikeprice:249,
-    image_url:
-      "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/images/growth/luminosity/1657100956556-058979.png",
-    thread1: "choose from regular RICA & honey wax",
-    thread2: "",
-    thread3: "",
-    thread4: "",
-    thread5: "",
-    thread6: "",
-  },
-  {
-    name: "Half arms",
-    rating: "4.75(6.7k)",
-    price: 199,
-    strikeprice:249,
-    image_url:
-      "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/images/growth/luminosity/1657100957815-f15ff6.png",
-    thread1: "choose from regular RICA & honey wax",
-    thread2: "",
-    thread3: "",
-    thread4: "",
-    thread5: "",
-    thread6: "",
-  },
+
+
   {
     name: "Face wax",
     rating: "4.77(22.2k)",
     price: 69,
-    strikeprice:89,
-    image_url:"https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto,w_96,dpr_1,h_96,fl_progressive:steep,q_auto/images/growth/luminosity/1658988752247-347188.png",
-    thread1:"RICA peel-off wax to remove even the tiniest, hard to remove hair",
+    strikeprice: 89,
+    image_url: "https://images.squarespace-cdn.com/content/v1/5616c8cde4b0bbc1cabb7c79/99f78995-b9a6-466a-8ca7-36bdd3d57d02/Capture.JPG",
+    thread1: "RICA peel-off wax to remove even the tiniest, hard to remove hair",
     thread2: "Recommonded of all skin type, perticular skin type",
     thread3: "",
     thread4: "",
@@ -294,11 +198,11 @@ var facial = [
     name: "Cleanups",
     rating: "4.79(49.9k)",
     price: 699,
-    strikeprice:749,
+    strikeprice: 749,
     image_url:
-      "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/images/supply/customer-app-supply/1634212386258-a7bdfd.png",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUhHWjzf-lJlPTbkwkM_ZBcw-9ds6vmHFeUg&s",
     thread1: "6 stap process, include 10 min massage",
-    thread2:"",
+    thread2: "",
     thread3: "",
     thread4: "",
     thread5: "",
@@ -308,11 +212,11 @@ var facial = [
     name: "Classic facial",
     rating: "4.76(64.5k)",
     price: 1099,
-    strikeprice:1199,
+    strikeprice: 1199,
     image_url:
-      "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/images/supply/customer-app-supply/1634707058605-fd6260.png",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDk_VJlZ6mwSZzgD5tiRHOgk9XHDvG5tXicQ&s",
     thread1: "7 step process, Glow ingrediants, include 20 min massage",
-    thread2:"",
+    thread2: "",
     thread3: "",
     thread4: "",
     thread5: "",
@@ -322,11 +226,11 @@ var facial = [
     name: "Signature facial",
     rating: "4.76(86.6k)",
     price: 1199,
-    strikeprice:1249,
+    strikeprice: 1249,
     image_url:
-      "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/images/supply/customer-app-supply/1634714666502-19511c.png",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR91cMkMoh4suNGL2W8U4Fa8Bhd7hUVKUSLKw&s",
     thread1: "7-9 step process, premium glow ingrediants, 10 min massage",
-    thread2:"",
+    thread2: "",
     thread3: "",
     thread4: "",
     thread5: "",
@@ -336,11 +240,11 @@ var facial = [
     name: "Specialized facial",
     rating: "4.74(14.4k)",
     price: 1299,
-    strikeprice:1387,
+    strikeprice: 1387,
     image_url:
-      "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/images/supply/customer-app-supply/1634707052569-4bc6a6.png",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9lpLOEpd7Py_EbcmK4MHPPtvuol9jbb85Uw&s",
     thread1: "facials for aging, pegments & sensitive skin",
-    thread2:"",
+    thread2: "",
     thread3: "",
     thread4: "",
     thread5: "",
@@ -349,231 +253,144 @@ var facial = [
 ];
 var manicure = [
   {
-      name: "Cut, file & polish(hands) ",
-      rating: "4.75(18.6k)",
-      price: 149,
-      strikeprice:248,
-      time: "15 mins",
-      image_url:
-      "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/images/growth/luminosity/1657015111280-ecba9e.png",
-      thread1:"Quick & basic nail groming session with a wide range of nail polishes",
-      thread2:"",
+    name: "Cut, file & polish(hands) ",
+    rating: "4.75(18.6k)",
+    price: 149,
+    strikeprice: 248,
+    time: "15 mins",
+    image_url:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHYahFrRyFRMyszGCKjXvJSll0dgPPS84MqJoXZ1Py74C_j8Whftmqr6NCEU_dmK35YtU&usqp=CAU",
+    thread1: "Quick & basic nail groming session with a wide range of nail polishes",
+    thread2: "",
     thread3: "",
     thread4: "",
     thread5: "",
     thread6: "",
   },
   {
-      name: "Elysian britis rose manicure",
-      rating: "4.71(20.2k)",
-      price: 649,
-      strikeprice:799,
-      time: "45 mins",
-      image_url:
-      "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/images/growth/luminosity/1657525354775-6f2f1b.png",
-      thread1:"Rose salt soak, scrub, skin massage, mask for soft & norished hand ",
-      thread2:"",
+    name: "Elysian britis rose manicure",
+    rating: "4.71(20.2k)",
+    price: 649,
+    strikeprice: 799,
+    time: "45 mins",
+    image_url:
+      "https://cdn.shopify.com/s/files/1/1944/0163/files/professional-manicure.jpg?v=1571881247",
+    thread1: "Rose salt soak, scrub, skin massage, mask for soft & norished hand ",
+    thread2: "",
     thread3: "",
     thread4: "",
     thread5: "",
     thread6: "",
   },
-  {
-      name: "Elysian chocolate & vanila manicure",
-      rating: "4.73(6k)",
-      price: 899,
-      strikeprice:999,
-      time: "45 mins",
-      image_url:
-      "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/images/growth/luminosity/1657525353944-8baf5e.png",
-      thread1:"Relaxing swell gel soak, scrub, skin massgae, mask for fresh, fragrant hands",
-      thread2:"",
-    thread3: "",
-    thread4: "",
-    thread5: "",
-    thread6: "",
-  },
-  {
-      name: "Elysian candle spa manicure",
-      rating: "4.72(3.4k)",
-      price: 1049,
-      strikeprice:1119,
-      time: "60 mins",
-      image_url:
-      "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/images/growth/luminosity/1657015100590-b7efec.png",
-      thread1:"soothing fizz ball theraphy, scrub wax massage, double masks for georgeous hand",
-      thread2:"",
-    thread3: "",
-    thread4: "",
-    thread5: "",
-    thread6: "",
-  }
 ]
+
 var pedicure = [
   {
-      name: "Cut, file & polis(feets) ",
-      rating: "4.76(19.8k)",
-      price: 199,
-      strikeprice:249,
-      time: "15 mins",
-      image_url:
+    name: "Cut, file & polis(feets) ",
+    rating: "4.76(19.8k)",
+    price: 199,
+    strikeprice: 249,
+    time: "15 mins",
+    image_url:
       "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/images/growth/luminosity/1657018447765-ef2c1f.png",
-      thread1:"Quick & basic nail groming session with a wide range of nail polishes",
-      thread2:"",
+    thread1: "Quick & basic nail groming session with a wide range of nail polishes",
+    thread2: "",
     thread3: "",
     thread4: "",
     thread5: "",
     thread6: "",
   },
-  {
-      name: "Elysian britis rose pedicure",
-      rating: "4.73(65.2k)",
-      price: 849,
-      strikeprice:999,
-      time: "1 hrs 5 mins",
-      image_url:
-      "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/images/growth/luminosity/1657525547069-568a1f.png",
-      thread1:"Rose salt soak, scrub, skin massage, mask for soft & norished feet ",
-      thread2:"",
-    thread3: "",
-    thread4: "",
-    thread5: "",
-    thread6: "",
-  },
-  {
-      name: "Elysian chocolate & vanila pedicure",
-      rating: "4.72(14.1k)",
-      price: 1049,
-      strikeprice:1149,
-      time: "1 hrs 5 mins",
-      image_url:
-      "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/images/growth/luminosity/1657525546356-075510.png",
-      thread1:"Relaxing swell gel soak, scrub, skin massgae, mask for fresh, fragrant feets ",
-      thread2:"",
-    thread3: "",
-    thread4: "",
-    thread5: "",
-    thread6: "",
-  },
-  {
-      name: "Elysian candle spa pedicure",
-      rating: "4.76(2.8k)",
-      price: 1249,
-      strikeprice:1299,
-      time: "1 hrs 15 mins",
-      image_url:
-      "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/images/growth/luminosity/1657525546690-54cb72.png",
-      thread1:"soothing fizz ball theraphy, scrub wax massage, double masks for georgeous hand",
-      thread2:"",
-    thread3: "",
-    thread4: "",
-    thread5: "",
-    thread6: "",
-  }
 ]
 var threading = [
   {
-      name: "Face wax",
-      rating: "4.77(22.2k)",
-      price: 69,
-      strikeprice:79,
-      image_url:
-      "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/images/growth/luminosity/1658988752247-347188.png",
-      thread1:"RICA peel-off wax to remove even the tiniest, hard to remove hair ",
-      thread2: "recommonded to all skin type, peticular sensitive skin",
+    name: "Face wax",
+    rating: "4.77(22.2k)",
+    price: 69,
+    strikeprice: 79,
+    image_url:
+      "https://ghc.health/cdn/shop/articles/WhatsApp_Image_2022-02-08_at_11.25.21_AM_2.jpg?v=1644314769",
+    thread1: "RICA peel-off wax to remove even the tiniest, hard to remove hair ",
+    thread2: "recommonded to all skin type, peticular sensitive skin",
     thread3: "",
     thread4: "",
     thread5: "",
     thread6: "",
   },
   {
-      name: "Threading",
-      rating: "4.76(502.8k)",
-      price: 19,
-      strikeprice:25,
-      image_url:
-      "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/images/growth/luminosity/1657524490060-23016c.png",
-      thread1:"Good quality thread for desired eybrow shape & other facial areas hair removal",
-      thread2: "",
-      thread3: "",
-      thread4: "",
-      thread5: "",
-      thread6: "",
+    name: "Threading",
+    rating: "4.76(502.8k)",
+    price: 19,
+    strikeprice: 25,
+    image_url:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzKcl9--LCg_256jUh8r3tlNeHBIAJ6RrO9V4fwG5fVPongceyb59Bdf63OWxIb8Lg2OM&usqp=CAU",
+    thread1: "Good quality thread for desired eybrow shape & other facial areas hair removal",
+    thread2: "",
+    thread3: "",
+    thread4: "",
+    thread5: "",
+    thread6: "",
   }
 ]
 var bleach = [
   {
-      name: "Bleach",
-      rating: "4.75(52.5k)",
-      price: 299,
-      strikeprice:349,
-      image_url:
-      "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/images/growth/luminosity/1657520810954-691bb1.png",
-      thread1:"tratment to remove dark sports, tan, pigmentation, blemises,etc.",
-      thread2: "not sutatble for sensitive skin",
-      thread3: "",
-      thread4: "",
-      thread5: "",
-      thread6: "",
+    name: "Bleach",
+    rating: "4.75(52.5k)",
+    price: 299,
+    strikeprice: 349,
+    image_url:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3vwkJxLDS5TPQtgKMaQnyKDbMPFAzvVr9rA&s",
+    thread1: "tratment to remove dark sports, tan, pigmentation, blemises,etc.",
+    thread2: "not sutatble for sensitive skin",
+    thread3: "",
+    thread4: "",
+    thread5: "",
+    thread6: "",
   },
   {
-      name: "Detan",
-      rating: "4.76(48.8k)",
-      price: 349,
-      strikeprice:449,
-      image_url:
-      "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/images/growth/luminosity/1657523167667-d1f1eb.png",
-      thread1:"RAAGA Detan pack infused with milk, honey, fruits extract to remove tan",
-      thread2: "",
-      thread3: "",
-      thread4: "",
-      thread5: "",
-      thread6: "",
+    name: "Detan",
+    rating: "4.76(48.8k)",
+    price: 349,
+    strikeprice: 449,
+    image_url:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCyJic2nKmTyCMomyPvYupur9qkTaZ4GcgOWZFWx3I8NPgXWAS0XAVu6U0W7bzoZ2qD-M&usqp=CAU",
+    thread1: "RAAGA Detan pack infused with milk, honey, fruits extract to remove tan",
+    thread2: "",
+    thread3: "",
+    thread4: "",
+    thread5: "",
+    thread6: "",
   }
 ]
 var hairColour = [
   {
-      name: "Hair colour application",
-      rating: "4.72(34.9k)",
-      price: 249,
-      strikeprice:349,
-      image_url:
-      "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/images/growth/luminosity/1657524726085-34bdda.png",
-      thread1:"colour / henna application by experts to give your hair antural look & shine",
-      thread2: "We do not provide colour / henna. please have it befor the professional arriv",
-      thread3: "",
-      thread4: "",
-      thread5: "",
-      thread6: "",
+    name: "Hair colour application",
+    rating: "4.72(34.9k)",
+    price: 249,
+    strikeprice: 349,
+    image_url:
+      "https://t3.ftcdn.net/jpg/04/86/70/98/360_F_486709876_REbUj7ZkLqUOzEVmQ00SoHeboS44PJSU.jpg",
+    thread1: "colour / henna application by experts to give your hair antural look & shine",
+    thread2: "We do not provide colour / henna. please have it befor the professional arriv",
+    thread3: "",
+    thread4: "",
+    thread5: "",
+    thread6: "",
   },
   {
-      name: "Head massage",
-      rating: "4.75(63.7k)",
-      price: 299,
-      strikeprice:399,
-      image_url:
-      "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/images/growth/luminosity/1657524725157-0eea37.png",
-      thread1:"Relaxing oil massage to relive stress & promote hair growth",
-      thread2: "",
-      thread3: "",
-      thread4: "",
-      thread5: "",
-      thread6: "",
+    name: "Head massage",
+    rating: "4.75(63.7k)",
+    price: 299,
+    strikeprice: 399,
+    image_url:
+      "https://media.istockphoto.com/id/523274861/photo/skin-care-for-men.jpg?s=612x612&w=0&k=20&c=e0LJr8EgOIwT2i559eCAUYSxxdwNl8szhdPKCV5VzPk=",
+    thread1: "Relaxing oil massage to relive stress & promote hair growth",
+    thread2: "",
+    thread3: "",
+    thread4: "",
+    thread5: "",
+    thread6: "",
   },
-  {
-      name: "Lorial hair spa",
-      rating: "4.64(1.2k)",
-      price: 1249,
-      strikeprice:1349,
-      image_url:
-      "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/images/growth/luminosity/1657524725660-93d095.png",
-      thread1:"Therapetic hair spa tratment for healty &  nourised hair",
-      thread2: "",
-      thread3: "",
-      thread4: "",
-      thread5: "",
-      thread6: "",
-  }
+
 ]
 bestsellerdisplay();
 makeyourownpackageDisplay();
@@ -586,8 +403,8 @@ bleachdisplay();
 haircolourdisplay();
 
 //event & localStorage
-var cartpage=JSON.parse(localStorage.getItem("items"))||[];
-var total=(localStorage.getItem("totalvalue"))||0;
+var cartpage = JSON.parse(localStorage.getItem("items")) || [];
+var total = (localStorage.getItem("totalvalue")) || 0;
 
 
 function bestsellerdisplay() {
@@ -604,12 +421,12 @@ function bestsellerdisplay() {
     packp.setAttribute("class", "packagecolor");
     var namep = document.createElement("h3");
     namep.innerText = elem.name;
-    var addbtn= document.createElement("button");
-    addbtn.innerText="Add";
-    addbtn.setAttribute("class","add");
-    addbtn.style.marginLeft="80%";
-    addbtn.addEventListener("click",function(){addToCart(elem);} );
-  
+    var addbtn = document.createElement("button");
+    addbtn.innerText = "Add";
+    addbtn.setAttribute("class", "add");
+    addbtn.style.marginLeft = "80%";
+    addbtn.addEventListener("click", function () { addToCart(elem); });
+
 
     var ratingp = document.createElement("p");
     ratingp.innerHTML = '<i class="fa-solid fa-star"></i> ' + elem.rating;
@@ -637,7 +454,7 @@ function bestsellerdisplay() {
     var thread5p = document.createElement("p");
     thread5p.innerText = elem.thread5;
     seconddiv.append(thread1p, thread2p, thread3p, thread4p, thread5p, edit);
-    firstdiv.append(packp, namep,addbtn, ratingp, pricep);
+    firstdiv.append(packp, namep, addbtn, ratingp, pricep);
     parentdiv.append(firstdiv, seconddiv);
     section.append(parentdiv);
     parentdiv.setAttribute("id", "parentdiv");
@@ -659,11 +476,11 @@ function makeyourownpackageDisplay() {
     packp.setAttribute("class", "packagecolor");
     var namep = document.createElement("h3");
     namep.innerText = elem.name;
-    var addbtn= document.createElement("button");
-    addbtn.innerText="Add";
-    addbtn.setAttribute("class","add");
-    addbtn.style.marginLeft="80%";
-    addbtn.addEventListener("click",function(){addToCart(elem);} );
+    var addbtn = document.createElement("button");
+    addbtn.innerText = "Add";
+    addbtn.setAttribute("class", "add");
+    addbtn.style.marginLeft = "80%";
+    addbtn.addEventListener("click", function () { addToCart(elem); });
     var ratingp = document.createElement("p");
     ratingp.innerHTML = '<i class="fa-solid fa-star"></i> ' + elem.rating;
     var pricep = document.createElement("p");
@@ -692,7 +509,7 @@ function makeyourownpackageDisplay() {
     var thread5p = document.createElement("p");
     thread5p.innerText = elem.thread5;
     seconddiv.append(thread1p, thread2p, thread3p, thread4p, thread5p, edit);
-    firstdiv.append(packp, namep,addbtn, ratingp, pricep, discountp);
+    firstdiv.append(packp, namep, addbtn, ratingp, pricep, discountp);
     parentdiv.append(firstdiv, seconddiv);
     section.append(parentdiv);
     parentdiv.setAttribute("id", "parentdiv");
@@ -729,8 +546,8 @@ function waxingdisplay() {
     var add = document.createElement("p");
     add.innerText = "Add";
 
-   
-    add.addEventListener("click",function(){addToCart(elem);} );
+
+    add.addEventListener("click", function () { addToCart(elem); });
 
     thirddiv.append(image, add);
     var firstdiv = document.createElement("div");
@@ -780,8 +597,8 @@ function facialdisplay() {
     image.setAttribute("alt", index);
     var add = document.createElement("p");
     add.innerText = "Add";
-    
-    add.addEventListener("click",function(){addToCart(elem);} );
+
+    add.addEventListener("click", function () { addToCart(elem); });
     thirddiv.append(image, add);
     var firstdiv = document.createElement("div");
     firstdiv.setAttribute("id", "waxingflex");
@@ -830,8 +647,8 @@ function manicuredisplay() {
     var add = document.createElement("p");
     add.innerText = "Add";
 
-   
-    add.addEventListener("click",function(){addToCart(elem);} );
+
+    add.addEventListener("click", function () { addToCart(elem); });
 
     thirddiv.append(image, add);
     var firstdiv = document.createElement("div");
@@ -843,7 +660,7 @@ function manicuredisplay() {
     var viewdetils = document.createElement("h3");
     viewdetils.innerHTML = "View Details";
     viewdetils.setAttribute("id", "viewdetais");
-    fourdiv.append(thread1p,  viewdetils);
+    fourdiv.append(thread1p, viewdetils);
     fourdiv.setAttribute("id", "desdiv");
     parentdiv.append(firstdiv, fourdiv);
     section.append(parentdiv);
@@ -868,7 +685,7 @@ function pedicuredisplay() {
     ratingp.innerHTML = '<i class="fa-solid fa-star"></i> ' + elem.rating;
 
     var pricep = document.createElement("p");
-    pricep.innerHTML = elem.price+"&nbsp  &nbsp &nbsp &nbsp &nbsp "+ elem.time;
+    pricep.innerHTML = elem.price + "&nbsp  &nbsp &nbsp &nbsp &nbsp " + elem.time;
     var seconddiv = document.createElement("dvi");
     seconddiv.append(namep, ratingp, pricep);
     var image = document.createElement("img");
@@ -879,8 +696,8 @@ function pedicuredisplay() {
     image.setAttribute("alt", index);
     var add = document.createElement("p");
     add.innerText = "Add";
-    
-    add.addEventListener("click",function(){addToCart(elem)} );
+
+    add.addEventListener("click", function () { addToCart(elem) });
     thirddiv.append(image, add);
     var firstdiv = document.createElement("div");
     firstdiv.setAttribute("id", "waxingflex");
@@ -893,7 +710,7 @@ function pedicuredisplay() {
     var viewdetils = document.createElement("h3");
     viewdetils.innerHTML = "View Details";
     viewdetils.setAttribute("id", "viewdetais");
-    fourdiv.append(thread1p,  viewdetils);
+    fourdiv.append(thread1p, viewdetils);
     fourdiv.setAttribute("id", "desdiv");
     parentdiv.append(firstdiv, fourdiv);
     section.append(parentdiv);
@@ -928,8 +745,8 @@ function threadingdisplay() {
     image.setAttribute("alt", index);
     var add = document.createElement("p");
     add.innerText = "Add";
-   
-    add.addEventListener("click",function(){addToCart(elem);} );
+
+    add.addEventListener("click", function () { addToCart(elem); });
     thirddiv.append(image, add);
     var firstdiv = document.createElement("div");
     firstdiv.setAttribute("id", "waxingflex");
@@ -942,7 +759,7 @@ function threadingdisplay() {
     var viewdetils = document.createElement("h3");
     viewdetils.innerHTML = "View Details";
     viewdetils.setAttribute("id", "viewdetais");
-    fourdiv.append(thread1p,  viewdetils);
+    fourdiv.append(thread1p, viewdetils);
     fourdiv.setAttribute("id", "desdiv");
     parentdiv.append(firstdiv, fourdiv);
     section.append(parentdiv);
@@ -978,8 +795,8 @@ function bleachdisplay() {
     var add = document.createElement("p");
     add.innerText = "Add";
 
-    
-    add.addEventListener("click",function(){addToCart(elem);} );
+
+    add.addEventListener("click", function () { addToCart(elem); });
     thirddiv.append(image, add);
     var firstdiv = document.createElement("div");
     firstdiv.setAttribute("id", "waxingflex");
@@ -992,7 +809,7 @@ function bleachdisplay() {
     var viewdetils = document.createElement("h3");
     viewdetils.innerHTML = "View Details";
     viewdetils.setAttribute("id", "viewdetais");
-    fourdiv.append(thread1p,  viewdetils);
+    fourdiv.append(thread1p, viewdetils);
     fourdiv.setAttribute("id", "desdiv");
     parentdiv.append(firstdiv, fourdiv);
     section.append(parentdiv);
@@ -1029,7 +846,7 @@ function haircolourdisplay() {
     add.innerText = "Add";
 
 
-    add.addEventListener("click",function(){addToCart(elem);} );
+    add.addEventListener("click", function () { addToCart(elem); });
     thirddiv.append(image, add);
     var firstdiv = document.createElement("div");
     firstdiv.setAttribute("id", "waxingflex");
@@ -1042,7 +859,7 @@ function haircolourdisplay() {
     var viewdetils = document.createElement("h3");
     viewdetils.innerHTML = "View Details";
     viewdetils.setAttribute("id", "viewdetais");
-    fourdiv.append(thread1p,  viewdetils);
+    fourdiv.append(thread1p, viewdetils);
     fourdiv.setAttribute("id", "desdiv");
     parentdiv.append(firstdiv, fourdiv);
     section.append(parentdiv);
@@ -1056,7 +873,7 @@ const sections = document.querySelectorAll("section[id]");
 window.addEventListener("scroll", navHighlighter);
 function navHighlighter() {
   let scrollY = window.pageYOffset;
-  sections.forEach((current) => { 
+  sections.forEach((current) => {
     const sectionHeight = current.offsetHeight;
     const sectionTop =
       current.getBoundingClientRect().top + window.pageYOffset - 50;
@@ -1071,25 +888,25 @@ function navHighlighter() {
   });
 }
 
-if(total>0){
+if (total > 0) {
   totalprice();
 }
-function addToCart(elem){
+function addToCart(elem) {
   console.log(elem);
   cartpage.push(elem);
-  var total= localStorage.getItem("totalvalue")||0;
-  total=parseInt(total)+parseInt(elem.price);
-  localStorage.setItem("items",JSON.stringify(cartpage));
-  localStorage.setItem("totalvalue",total);
+  var total = localStorage.getItem("totalvalue") || 0;
+  total = parseInt(total) + parseInt(elem.price);
+  localStorage.setItem("items", JSON.stringify(cartpage));
+  localStorage.setItem("totalvalue", total);
   totalprice();
 }
 
-function totalprice(){
-    document.getElementById("tag").style.display="flex";
-    document.getElementById("cart_button").style.display="flex";
+function totalprice() {
+  document.getElementById("tag").style.display = "flex";
+  document.getElementById("cart_button").style.display = "flex";
 
-   document.getElementById("sprice").innerText="₹ "+(parseInt(localStorage.getItem("totalvalue"))-50);
-   document.getElementById("sprice").style.textDecoration="line-through"
-  document.getElementById("total").innerText="₹ "+localStorage.getItem("totalvalue");
+  document.getElementById("sprice").innerText = "₹ " + (parseInt(localStorage.getItem("totalvalue")) - 50);
+  document.getElementById("sprice").style.textDecoration = "line-through"
+  document.getElementById("total").innerText = "₹ " + localStorage.getItem("totalvalue");
 }
 

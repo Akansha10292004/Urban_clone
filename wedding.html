@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="mahendra">
+    <img src="https://dreamweddinghub.com/public/uploads/vendor_images/1718175223img-1358_15_444516-171034436457654.jpeg" />
+    <p>
+        Name: Sidhart Diwedi
+        </p>
+        <p>
+        contact no:-52145311
+        </p>
+        <p>
+            Chargece:- 11,000
+        </p>
+       
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Payment Popup</title>
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                    text-align: center;
+                    margin: 50px;
+                }
+                .btn {
+                    background-color: green;
+                    color: white;
+                    padding: 12px 24px;
+                    font-size: 18px;
+                    border: none;
+                    border-radius: 5px;
+                    cursor: pointer;
+                }
+                .btn:hover {
+                    background-color: darkgreen;
+                }
+                .popup {
+                    display: none;
+                    position: fixed;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    background: white;
+                    padding: 20px;
+                    border-radius: 10px;
+                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+                    width: 300px;
+                }
+                .overlay {
+                    display: none;
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background: rgba(0, 0, 0, 0.5);
+                }
+                .confirm-btn {
+                    background-color: blue;
+                    color: white;
+                    padding: 10px 20px;
+                    border: none;
+                    border-radius: 5px;
+                    cursor: pointer;
+                    margin-top: 10px;
+                }
+                .confirm-btn:hover {
+                    background-color: darkblue;
+                }
+                .hidden {
+                    display: none;
+                }
+            </style>
+        </head>
+        <body>
+        
+            <button class="btn" onclick="openPopup()">Book Now</button>
+        
+            <div class="overlay" id="overlay"></div>
+        
+            <div class="popup" id="paymentPopup">
+                <h2>Enter Payment Details</h2>
+                
+                <label><input type="radio" name="payment" value="upi" checked onclick="showUPI()"> UPI</label><br>
+                <label><input type="radio" name="payment" value="bank" onclick="showBank()"> Bank Transfer</label><br><br>
+        
+                <div id="upiSection">
+                    <label>UPI ID:</label>
+                    <input type="text" id="upiID" placeholder="Enter your UPI ID"><br>
+                </div>
+        
+                <div id="bankSection" class="hidden">
+                    <label>Account Number:</label>
+                    <input type="text" id="accountNumber" placeholder="Enter Account Number"><br>
+                    <label>IFSC Code:</label>
+                    <input type="text" id="ifscCode" placeholder="Enter IFSC Code"><br>
+                </div>
+        
+                <button class="confirm-btn" onclick="confirmPayment()">Confirm Payment</button>
+            </div>
+        
+            <script>
+                function openPopup() {
+                    document.getElementById('paymentPopup').style.display = 'block';
+                    document.getElementById('overlay').style.display = 'block';
+                }
+        
+                function closePopup() {
+                    document.getElementById('paymentPopup').style.display = 'none';
+                    document.getElementById('overlay').style.display = 'none';
+                }
+        
+                function confirmPayment() {
+                    alert('✅ Booking Confirmed!');
+                    closePopup();
+                }
+        
+                function showUPI() {
+                    document.getElementById('upiSection').classList.remove('hidden');
+                    document.getElementById('bankSection').classList.add('hidden');
+                }
+        
+                function showBank() {
+                    document.getElementById('upiSection').classList.add('hidden');
+                    document.getElementById('bankSection').classList.remove('hidden');
+                }
+            </script>
+        
+        </body>
+        </html>
+        
+
+    
+</body>
+</html>
